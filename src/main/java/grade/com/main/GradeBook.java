@@ -8,6 +8,15 @@ import java.util.Map;
 public class GradeBook {
     private Map<String, Subject> subjects = new HashMap<String, Subject>();
 
+    private static GradeBook instance = new GradeBook();
+
+    private GradeBook(){}
+
+    public static GradeBook getInstance() {
+        //Your code here.....
+        return null;
+    }
+
     public void addSubject(String subject) {
         //Your code here.....
     }
