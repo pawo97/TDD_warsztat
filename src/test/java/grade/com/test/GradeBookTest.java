@@ -65,9 +65,16 @@ public class GradeBookTest {
         GradeBook gradeBook = GradeBook.getInstance();
         assertThrows(IllegalArgumentException.class, () -> gradeBook.addNote(OTHER_SUBJECT, 4.5));
     }
-//
-//    @Test
-//    void shouldComputeGlobalAverageNote()  {
-//        //Your code here.....
-//    }
+
+    @Test
+    void shouldComputeGlobalAverageNote()  {
+        //Your code here.....
+        gradeBookWithSubject.addSubject(OTHER_SUBJECT);
+        gradeBookWithSubject.addNote(SUBJECT, 3);
+        gradeBookWithSubject.addNote(SUBJECT, 5);
+        gradeBookWithSubject.addNote(OTHER_SUBJECT, 2);
+        gradeBookWithSubject.addNote(OTHER_SUBJECT, 4);
+
+        assertEquals(3.5, gradeBookWithSubject.getAverageNote(), 0.001);
+    }
 }

@@ -26,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/grade/com/test/GradeBookTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+            <state relative-caret-position="239">
+              <caret line="62" column="56" lean-forward="true" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GradeBookTest.shouldntAllowToAddANoteToNonExistingSubject">
+  <component name="RunManager" selected="JUnit.GradeBookTest.shouldComputeGlobalAverageNote">
     <configuration name="GradeBookTest.shouldBeAbleToAddNote" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDWarsztat" />
       <extension name="coverage">
@@ -127,6 +127,22 @@
       <option name="PACKAGE_NAME" value="grade.com.test" />
       <option name="MAIN_CLASS_NAME" value="grade.com.test.GradeBookTest" />
       <option name="METHOD_NAME" value="shouldBeAbleToAddNote" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeBookTest.shouldComputeGlobalAverageNote" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDDWarsztat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="grade.com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="grade.com.test" />
+      <option name="MAIN_CLASS_NAME" value="grade.com.test.GradeBookTest" />
+      <option name="METHOD_NAME" value="shouldComputeGlobalAverageNote" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,22 +180,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeBookTest.shouldntAllowToAddSubjectThatAlreadyExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDDWarsztat" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="grade.com.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="grade.com.test" />
-      <option name="MAIN_CLASS_NAME" value="grade.com.test.GradeBookTest" />
-      <option name="METHOD_NAME" value="shouldntAllowToAddSubjectThatAlreadyExists" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GradeBookTest.shouldntAllowToGetNonExistingSubject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDWarsztat" />
       <extension name="coverage">
@@ -198,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GradeBookTest.shouldComputeGlobalAverageNote" />
         <item itemvalue="JUnit.GradeBookTest.shouldntAllowToAddANoteToNonExistingSubject" />
         <item itemvalue="JUnit.GradeBookTest.shouldBeAbleToAddNote" />
         <item itemvalue="JUnit.GradeBookTest.shouldntAllowToGetNonExistingSubject" />
         <item itemvalue="JUnit.GradeBookTest.shouldGetValidSubjectFromGradeBook" />
-        <item itemvalue="JUnit.GradeBookTest.shouldntAllowToAddSubjectThatAlreadyExists" />
       </list>
     </recent_temporary>
   </component>
@@ -220,12 +220,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GradeBookTest_shouldGetValidSubjectFromGradeBook - 2020.11.29 at 18h 13m 17s.xml">
-      <configuration name="GradeBookTest.shouldGetValidSubjectFromGradeBook" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GradeBookTest_shouldGetValidSubjectFromGradeBook - 2020.11.29 at 18h 15m 29s.xml">
-      <configuration name="GradeBookTest.shouldGetValidSubjectFromGradeBook" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GradeBookTest_shouldGetValidSubjectFromGradeBook - 2020.11.29 at 18h 17m 10s.xml">
       <configuration name="GradeBookTest.shouldGetValidSubjectFromGradeBook" configurationId="JUnit" />
     </history-entry>
@@ -248,6 +242,12 @@
       <configuration name="GradeBookTest.shouldBeAbleToAddNote" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GradeBookTest_shouldntAllowToAddANoteToNonExistingSubject - 2020.11.29 at 18h 47m 12s.xml">
+      <configuration name="GradeBookTest.shouldntAllowToAddANoteToNonExistingSubject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GradeBookTest_shouldntAllowToAddANoteToNonExistingSubject - 2020.11.29 at 18h 52m 10s.xml">
+      <configuration name="GradeBookTest.shouldntAllowToAddANoteToNonExistingSubject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GradeBookTest_shouldntAllowToAddANoteToNonExistingSubject - 2020.11.29 at 18h 54m 27s.xml">
       <configuration name="GradeBookTest.shouldntAllowToAddANoteToNonExistingSubject" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -313,8 +313,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/grade/com/test/GradeBookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        <state relative-caret-position="239">
+          <caret line="62" column="56" lean-forward="true" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
