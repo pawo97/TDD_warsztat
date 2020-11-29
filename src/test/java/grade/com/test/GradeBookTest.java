@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class GradeBookTest {
 
@@ -50,11 +51,13 @@ public class GradeBookTest {
         GradeBook gradeBook = GradeBook.getInstance();
         assertThrows(IllegalArgumentException.class, () -> gradeBook.getSubject(OTHER_SUBJECT));
     }
-//
-//    @Test
-//    void shouldBeAbleToAddNote() {
-//        //Your code here.....
-//    }
+
+    @Test
+    void shouldBeAbleToAddNote() {
+        //Your code here.....
+        gradeBookWithSubject.addNote(SUBJECT, 4.5);
+        assertEquals(true, gradeBookWithSubject.getSubject(SUBJECT).getNotes().contains(new Double(4.5)));
+    }
 //
 //    @Test
 //    void shouldntAllowToAddANoteToNonExistingSubject() {

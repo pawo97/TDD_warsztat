@@ -115,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GradeBookTest.shouldntAllowToGetNonExistingSubject">
+  <component name="RunManager" selected="JUnit.GradeBookTest.shouldBeAbleToAddNote">
     <configuration name="GradeBookTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDWarsztat" />
       <extension name="coverage">
@@ -131,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeBookTest.shouldBeAbleToCreateGradeBook (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GradeBookTest.shouldBeAbleToAddNote" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDWarsztat" />
       <extension name="coverage">
         <pattern>
@@ -141,7 +141,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="grade.com.test" />
       <option name="MAIN_CLASS_NAME" value="grade.com.test.GradeBookTest" />
-      <option name="METHOD_NAME" value="shouldBeAbleToCreateGradeBook" />
+      <option name="METHOD_NAME" value="shouldBeAbleToAddNote" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -197,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GradeBookTest.shouldBeAbleToAddNote" />
         <item itemvalue="JUnit.GradeBookTest.shouldntAllowToGetNonExistingSubject" />
         <item itemvalue="JUnit.GradeBookTest.shouldGetValidSubjectFromGradeBook" />
         <item itemvalue="JUnit.GradeBookTest.shouldntAllowToAddSubjectThatAlreadyExists" />
         <item itemvalue="JUnit.GradeBookTest (1)" />
-        <item itemvalue="JUnit.GradeBookTest.shouldBeAbleToCreateGradeBook (1)" />
       </list>
     </recent_temporary>
   </component>

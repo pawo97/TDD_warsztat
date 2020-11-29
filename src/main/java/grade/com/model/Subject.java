@@ -21,6 +21,11 @@ public class Subject {
         //Your code here.....
     }
 
+    public List<Double> getNotes() {
+        //Your code here.....
+        return null;
+    }
+
     public double getAverage() {
         //Your code here.....
         return 0;
