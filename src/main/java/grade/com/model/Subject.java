@@ -29,6 +29,10 @@ public class Subject {
 
     public double getAverage() {
         //Your code here.....
-        return 0;
+        double noteSum = 0;
+        for(double note : notes) {
+            noteSum += note;
+        }
+        return noteSum / notes.size();
     }
 }

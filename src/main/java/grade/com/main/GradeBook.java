@@ -41,6 +41,10 @@ public class GradeBook {
 
     public double getAverageNote() {
         //Your code here.....
-        return 0;
+        double noteSum = 0;
+        for(Subject subject : subjects.values()) {
+            noteSum += subject.getAverage();
+        }
+        return noteSum / subjects.size();
     }
 }
