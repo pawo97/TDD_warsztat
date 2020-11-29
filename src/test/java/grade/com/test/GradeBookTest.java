@@ -48,7 +48,7 @@ public class GradeBookTest {
     void shouldntAllowToGetNonExistingSubject() {
         //Your code here.....
         GradeBook gradeBook = GradeBook.getInstance();
-        assertThrows(IllegalArgumentException.class, () -> gradeBook.getSubject(SUBJECT));
+        assertThrows(IllegalArgumentException.class, () -> gradeBook.getSubject(OTHER_SUBJECT));
     }
 //
 //    @Test
