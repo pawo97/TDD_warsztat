@@ -14,7 +14,7 @@ public class GradeBook {
 
     public static GradeBook getInstance() {
         //Your code here.....
-        return null;
+        return instance;
     }
 
     public void addSubject(String subject) {
