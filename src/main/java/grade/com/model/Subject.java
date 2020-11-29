@@ -9,11 +9,12 @@ public class Subject {
 
     public Subject(String name) {
         //Your code here.....
+        this.name = name;
     }
 
     public String getName() {
         //Your code here.....
-        return null;
+        return name;
     }
 
     public void addNote(double note) {
