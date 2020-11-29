@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/grade/com/test/GradeBookTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            <state relative-caret-position="102">
+              <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/grade/com/main/GradeBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="187">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,8 +76,8 @@
         <option value="$PROJECT_DIR$/src/main/java/GradeBook.java" />
         <option value="$PROJECT_DIR$/src/test/java/GradeBookTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/grade/com/model/Subject.java" />
-        <option value="$PROJECT_DIR$/src/test/java/grade/com/test/GradeBookTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/grade/com/main/GradeBook.java" />
+        <option value="$PROJECT_DIR$/src/test/java/grade/com/test/GradeBookTest.java" />
       </list>
     </option>
   </component>
@@ -113,7 +113,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GradeBookTest.shouldBeAbleToCreateGradeBook (1)">
+  <component name="RunManager" selected="JUnit.GradeBookTest (1)">
+    <configuration name="GradeBookTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDDWarsztat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="grade.com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="grade.com.test" />
+      <option name="MAIN_CLASS_NAME" value="grade.com.test.GradeBookTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GradeBookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GradeBook" />
       <extension name="coverage">
@@ -163,6 +178,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GradeBookTest (1)" />
         <item itemvalue="JUnit.GradeBookTest.shouldBeAbleToCreateGradeBook (1)" />
         <item itemvalue="JUnit.GradeBookTest.shouldBeAbleToCreateGradeBook" />
         <item itemvalue="JUnit.GradeBookTest" />
@@ -207,12 +223,15 @@
     <history-entry file="GradeBookTest_shouldBeAbleToCreateGradeBook_(1) - 2020.11.29 at 17h 38m 56s.xml">
       <configuration name="GradeBookTest.shouldBeAbleToCreateGradeBook (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GradeBookTest_(1) - 2020.11.29 at 17h 42m 53s.xml">
+      <configuration name="GradeBookTest (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1552" height="840" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25704697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -221,7 +240,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32909605" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -230,7 +249,7 @@
       <window_info anchor="bottom" id="ConsoleMavenPlugin" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.2217514" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32909605" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -258,8 +277,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/grade/com/main/GradeBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="187">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -268,8 +287,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/grade/com/test/GradeBookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="102">
+          <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
