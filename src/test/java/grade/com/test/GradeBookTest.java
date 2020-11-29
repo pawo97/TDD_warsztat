@@ -1,6 +1,7 @@
 package grade.com.test;
 
 import grade.com.main.GradeBook;
+import grade.com.model.Subject;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
@@ -35,11 +36,13 @@ public class GradeBookTest {
         //Your code here.....
         assertThrows(IllegalArgumentException.class, () -> gradeBookWithSubject.addSubject(SUBJECT));
     }
-//
-//    @Test
-//    void shouldGetValidSubjectFromGradeBook() {
-//        //Your code here.....
-//    }
+
+    @Test
+    void shouldGetValidSubjectFromGradeBook() {
+        //Your code here.....
+        Subject subject = gradeBookWithSubject.getSubject(SUBJECT);
+        assertEquals(SUBJECT, subject.getName());
+    }
 //
 //    @Test
 //    void shouldntAllowToGetNonExistingSubject() {
