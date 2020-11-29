@@ -28,7 +28,7 @@ W przypadku problemów proszę przełączyć się na odpowiedni branch, tam jest
 
 ## Instrukcja:
 
-###1. Setup i Test 1:
+1. Setup i Test 1:
 * W ramach setupu należy w pliku testowym globalnie zaimplementować:
 - dwa stringi z nazwami przedmiotów.
 - obiekt dzienniczka
@@ -38,28 +38,28 @@ W przypadku problemów proszę przełączyć się na odpowiedni branch, tam jest
 * shouldBeAbleToCreateGradeBook():
 - stworzenie obiektu dzienniczka i sprawdzenie czy nie jest nullem (assertNotNull())
 
-###2. Test 2:
+2. Test 2:
 * shouldntAllowToAddSubjectThatAlreadyExists():
 - sprawdzenie czy można dodać dwa te same przedmioty do dzienniczka, wynikiem powinien być IllegalArgumentException (assertThrows( nazwa klasy wyjątku.class,  () -> metoda);
 
-###3. Test 3:
+3. Test 3:
 * shouldGetValidSubjectFromGradeBook():
 - pobranie przedmiotu po nazwie i sprawdzenie czy pobrał się aktualny (assertEquals()), (Można wykorzystać stringi dodane na początku :))
 
-###4. Test 4:
+4. Test 4:
 * shouldntAllowToGetNonExistingSubject():
 - sprawdzenie czy można pobrać przedmiot który nie istnieje, powinien być IllegalArgumentException (assertThrows( nazwa klasy wyjątku.class,  () -> metoda);
 
-###5. Test 5:
+5. Test 5:
 * UWAGA! w Subject wymagane napisanie metody List<Double> getNotes() {}
 * shouldBeAbleToAddNote():
 - sprawdzenie czy można dodać ocene do przedmiotu (assertEquals())
 
-###6. Test 6:
+6. Test 6:
 * shouldntAllowToAddANoteToNonExistingSubject():
 - sprawdzenie czy mozna dodac ocene do przedmiotu, który nie istnieje, powinien być IllegalArgumentException. Jeśli dobrze została wykonana implementacja, test powinien przejść od razu :)
 
-###7. Test 7:
+7. Test 7:
 * shouldComputeGlobalAverageNote():
 - obliczenie średniej ze wszystkich ocen, najlepiej z każdego przedmiotu osobno. (Podpowiedź każdy przedmiot ma w sobie metodę liczącą średnią)
 
