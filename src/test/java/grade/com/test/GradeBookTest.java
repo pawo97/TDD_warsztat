@@ -30,10 +30,11 @@ public class GradeBookTest {
         assertNotNull(gradeBook);
     }
 
-//    @Test
-//    void shouldntAllowToAddSubjectThatAlreadyExists() {
-//        //Your code here.....
-//    }
+    @Test
+    void shouldntAllowToAddSubjectThatAlreadyExists() {
+        //Your code here.....
+        assertThrows(IllegalArgumentException.class, () -> gradeBookWithSubject.addSubject(SUBJECT));
+    }
 //
 //    @Test
 //    void shouldGetValidSubjectFromGradeBook() {
