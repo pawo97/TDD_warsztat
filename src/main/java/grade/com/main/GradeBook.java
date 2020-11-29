@@ -19,6 +19,10 @@ public class GradeBook {
 
     public void addSubject(String subject) {
         //Your code here.....
+        if (subjects.containsKey(subject)) {
+            throw new IllegalArgumentException(String.format("Przedmiot  %s juz istnieje!", subject));
+        }
+        subjects.put(subject, new Subject(subject));
     }
 
     public Subject getSubject(String subject) {
