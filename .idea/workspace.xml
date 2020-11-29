@@ -23,11 +23,11 @@
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/grade/com/test/GradeBookTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="58" column="45" lean-forward="true" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+            <state relative-caret-position="205">
+              <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/grade/com/main/GradeBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
+            <state relative-caret-position="307">
               <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -47,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/grade/com/model/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
@@ -77,9 +77,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Subject.java" />
         <option value="$PROJECT_DIR$/src/main/java/GradeBook.java" />
         <option value="$PROJECT_DIR$/src/test/java/GradeBookTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/grade/com/test/GradeBookTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/grade/com/main/GradeBook.java" />
         <option value="$PROJECT_DIR$/src/main/java/grade/com/model/Subject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/grade/com/test/GradeBookTest.java" />
       </list>
     </option>
   </component>
@@ -115,22 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GradeBookTest.shouldBeAbleToAddNote">
-    <configuration name="GradeBookTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDDWarsztat" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="grade.com.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="grade.com.test" />
-      <option name="MAIN_CLASS_NAME" value="grade.com.test.GradeBookTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.GradeBookTest.shouldntAllowToAddANoteToNonExistingSubject">
     <configuration name="GradeBookTest.shouldBeAbleToAddNote" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDWarsztat" />
       <extension name="coverage">
@@ -158,6 +143,22 @@
       <option name="PACKAGE_NAME" value="grade.com.test" />
       <option name="MAIN_CLASS_NAME" value="grade.com.test.GradeBookTest" />
       <option name="METHOD_NAME" value="shouldGetValidSubjectFromGradeBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeBookTest.shouldntAllowToAddANoteToNonExistingSubject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDDWarsztat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="grade.com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="grade.com.test" />
+      <option name="MAIN_CLASS_NAME" value="grade.com.test.GradeBookTest" />
+      <option name="METHOD_NAME" value="shouldntAllowToAddANoteToNonExistingSubject" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -197,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GradeBookTest.shouldntAllowToAddANoteToNonExistingSubject" />
         <item itemvalue="JUnit.GradeBookTest.shouldBeAbleToAddNote" />
         <item itemvalue="JUnit.GradeBookTest.shouldntAllowToGetNonExistingSubject" />
         <item itemvalue="JUnit.GradeBookTest.shouldGetValidSubjectFromGradeBook" />
         <item itemvalue="JUnit.GradeBookTest.shouldntAllowToAddSubjectThatAlreadyExists" />
-        <item itemvalue="JUnit.GradeBookTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -219,12 +220,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GradeBookTest_shouldBeAbleToCreateGradeBook_(1) - 2020.11.29 at 17h 38m 56s.xml">
-      <configuration name="GradeBookTest.shouldBeAbleToCreateGradeBook (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GradeBookTest_(1) - 2020.11.29 at 17h 42m 53s.xml">
-      <configuration name="GradeBookTest (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GradeBookTest_shouldGetValidSubjectFromGradeBook - 2020.11.29 at 18h 13m 17s.xml">
       <configuration name="GradeBookTest.shouldGetValidSubjectFromGradeBook" configurationId="JUnit" />
     </history-entry>
@@ -248,6 +243,12 @@
     </history-entry>
     <history-entry file="GradeBookTest_shouldBeAbleToAddNote - 2020.11.29 at 18h 43m 49s.xml">
       <configuration name="GradeBookTest.shouldBeAbleToAddNote" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GradeBookTest_shouldBeAbleToAddNote - 2020.11.29 at 18h 45m 19s.xml">
+      <configuration name="GradeBookTest.shouldBeAbleToAddNote" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GradeBookTest_shouldntAllowToAddANoteToNonExistingSubject - 2020.11.29 at 18h 47m 12s.xml">
+      <configuration name="GradeBookTest.shouldntAllowToAddANoteToNonExistingSubject" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -290,10 +291,10 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/grade/com/test/GradeBookTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/grade/com/model/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="58" column="45" lean-forward="true" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+        <state relative-caret-position="375">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -302,7 +303,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/grade/com/main/GradeBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
+        <state relative-caret-position="307">
           <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -310,10 +311,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/grade/com/model/Subject.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/grade/com/test/GradeBookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="205">
+          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

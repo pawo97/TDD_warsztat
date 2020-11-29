@@ -58,11 +58,13 @@ public class GradeBookTest {
         gradeBookWithSubject.addNote(SUBJECT, 4.5);
         assertEquals(true, gradeBookWithSubject.getSubject(SUBJECT).getNotes().contains(new Double(4.5)));
     }
-//
-//    @Test
-//    void shouldntAllowToAddANoteToNonExistingSubject() {
-//        //Your code here.....
-//    }
+
+    @Test
+    void shouldntAllowToAddANoteToNonExistingSubject() {
+        //Your code here.....
+        GradeBook gradeBook = GradeBook.getInstance();
+        assertThrows(IllegalArgumentException.class, () -> gradeBook.addNote(OTHER_SUBJECT, 4.5));
+    }
 //
 //    @Test
 //    void shouldComputeGlobalAverageNote()  {
