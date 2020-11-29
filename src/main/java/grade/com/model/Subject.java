@@ -19,11 +19,12 @@ public class Subject {
 
     public void addNote(double note) {
         //Your code here.....
+        notes.add(note);
     }
 
     public List<Double> getNotes() {
         //Your code here.....
-        return null;
+        return this.notes;
     }
 
     public double getAverage() {

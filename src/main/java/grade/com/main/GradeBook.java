@@ -35,6 +35,8 @@ public class GradeBook {
 
     public void addNote(String subjectName, double note) {
         //Your code here.....
+        Subject subject = getSubject(subjectName);
+        subject.addNote(note);
     }
 
     public double getAverageNote() {
