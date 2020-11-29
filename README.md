@@ -9,7 +9,7 @@ Etap testów jest podzielony na 3 etapy:
 2. Green
 3. Refactor
 
-W przypadku problemów proszę przełączyć się na odpowiedni branch, tam jest napisany test red lub test green. W przypadku przelaczania sie SMART CHECKOUT -> Accept Theirs. Ze względu na dużą ilość branchy, 3 etap jest do waszej dyspozycji :). Należy etapami zaimplementować najpierw test, a potem funkcjonalność.
+W przypadku problemów proszę przełączyć się na odpowiedni branch, tam jest napisany test red lub test green. W przypadku przelaczania sie SMART CHECKOUT -> Accept Theirs lub z konsoli git fetch --all i z terminala w Intelij git checkout Test(Nr)_(Red/Green). Ze względu na dużą ilość branchy, 3 etap jest do waszej dyspozycji :). Należy etapami zaimplementować najpierw test, a potem funkcjonalność.
 
 ## Szybka dokumentacja:
 
