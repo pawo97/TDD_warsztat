@@ -30,7 +30,7 @@ public class GradeBook {
         if (subjects.containsKey(subject)) {
             return subjects.get(subject);
         }
-        return null;
+        throw new IllegalArgumentException(String.format("Przedmiot  %s nie istnieje!", subject));
     }
 
     public void addNote(String subjectName, double note) {
